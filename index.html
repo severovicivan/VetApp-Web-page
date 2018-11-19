@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VetApp</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/ic_launcher.png" width="50" height="50" alt=""><h3 class="d-inline align-middle ml-3">VetApp</h3>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Proizvod</a>
+          </li>
+          <li class="nav-item">
+            <a href="#authors" class="nav-link">Tim</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE -->
+  <section id="showcase" class="py-5">
+    <div class="primary-overlay text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 text-center">
+            <h1 class="display-4 mt-5 ml-5 pt-5">
+              Dosta vam je stresa kod izlazaka na teren?
+            </h1>
+            <p class="lead mt-5 ml-5 pt-5"><strong>Uz VetApp aplikaciju rješite se nepotrebne papirologije.</strong></p>
+            <a href="#about" class="btn btn-outline-dark btn-lg text-white">
+              <i class="fa fa-arrow-right"></i> Pročitaj više</a>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/mockup3.png" width="70%" height="70%" alt="" class="img-fluid d-none d-lg-block mt-4 ml-5">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+ <section id="newsletter" class="bg-dark text-white py-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <input type="text" class="form-control form-control-lg" placeholder="Unesi Ime">
+       </div>
+       <div class="col-md-4">
+         <input type="text" class="form-control form-control-lg" placeholder="Unesi Email">
+       </div>
+       <div class="col-md-4">
+         <a href="https://www.instagram.com/vet_app_/" class="btn btn-danger btn-lg btn-block"><i class="fa fa-envelope-open-o"></i> Pretplati se </a>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <!-- ABOUT / WHY SECTION -->
+  <section id="about" class="py-5 text-center bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-danger pb-3">
+              Zašto naš proizvod?
+            </h1>
+            <p class="lead pb-3">
+
+            </p>
+          </div>
+
+          <!-- ACCORDION -->
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" id="heading1">
+                <h5 class="mb-0">
+                  <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fa fa-arrow-circle-down"></i> Inspiracija
+                  </div>
+                </h5>
+              </div>
+
+              <div id="collapse1" class="collapse show">
+                <div class="card-body">
+                  Pri izlasku veterinara na teren, podaci kod pronalaska životinje se zapisuju u rokovnik ili pamte što otežava i usporava proces unosa lutalica u sustav koji se nalazi u prihvatilištima i veterinarskim stanicama.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="heading2">
+                <h5 class="mb-0">
+                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fa fa-arrow-circle-down"></i> Svrha
+                  </div>
+                </h5>
+              </div>
+
+              <div id="collapse2" class="collapse">
+                <div class="card-body">
+                  Pomoć zaposlenicima prihvatilišta za životinje i veterinarima pri pronalasku lutalica na terenu.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="heading3">
+                <h5 class="mb-0">
+                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fa fa-arrow-circle-down"></i> Budućnost
+                  </div>
+                </h5>
+              </div>
+
+              <div id="collapse3" class="collapse">
+                <div class="card-body">
+                  Na ovogodišnjoj Google I/O konferenciji razvojnih programera Google je predstavio ML Kit. Radi se o paketu za razvoj softvera (SDK) koji omogućava lakšu implementaciju algoritama strojnog učenja u Android i iOS aplikacije. ML Kit nam pruža gotova sučelja (API-je) ili opciju učitavanja vlastitog TensorFlow Lite modela. Pomoću TensorFlowa možemo istrenirati model neuronske mreže za klasifikaciju pasmine što nam je sljedeća značajka koju ćemo implementirati u aplikaciju, a ona će nam omogučiti prepoznavanje pasmine pomoću kamere pametnog telefona.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHORS -->
+  <section id="authors" class="my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-danger pb-3">
+              Tko smo mi?
+            </h1>
+            <p class="lead pb-3">
+              Studenti Odjela za informatiku Sveučilišta u Rijeci.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/seve.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Ivan Severović</h3>
+              <h5 class="text-muted">Android Developer</h5>
+              <p></p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/dirigentSeve"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/insta.seve/"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/ernest.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Ernest Marnika</h3>
+              <h5 class="text-muted">Web Developer</h5>
+              <p></p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/ernest.marnika.3"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/ernica94/"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/kristian.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Kristian Nekić</h3>
+              <h5 class="text-muted">Editor</h5>
+              <p></p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/kristian.nekic.9"><i class="fa fa-facebook"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/ago.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Ago Sočković</h3>
+              <h5 class="text-muted">Designer</h5>
+              <p> </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/agosole"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/agosoletin/"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h3>Kontaktirajte nas</h3>
+          <p class="lead">Ukoliko želite saznati više o našem proizvodu ili onome čime se bavimo pošaljite nam upit.</p>
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" placeholder="Ime">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+                <textarea class="form-control" placeholder="Poruka" rows="5"></textarea>
+              </div>
+            </div>
+            <a href="mailto:vetapp4you@gmail.com" class="btn btn-danger btn-block btn-lg">Podnesi</a>
+          </form>
+        </div>
+        <div class="col-lg-3 align-self-center">
+          <img src="img/ic_launcher1.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="py-5 bg-danger text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6 ml-auto">
+          <p class="lead">Copyright &copy; 2018</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCseUmxMBOkqn989RSJlmIvY30bksDGFZE",
+      authDomain: "drinkwish-8f293.firebaseapp.com",
+      databaseURL: "https://drinkwish-8f293.firebaseio.com",
+      projectId: "drinkwish-8f293",
+      storageBucket: "",
+      messagingSenderId: "1036116996947"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+</body>
+</html>
